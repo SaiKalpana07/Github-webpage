@@ -51,7 +51,9 @@ li{
     color:#e7e7e7;
     width:125%;
 }
-
+::placeholder{
+    color:#C4C5C7;
+}
   .banner{
     width:100%;
     height: 60vh;
@@ -71,6 +73,7 @@ li{
 .heading1{ 
     font-size: 50px;
     font-family: 'Arial';
+    word-wrap: break-word;
 }
 .heading2{
     font-family:'Arial';
@@ -139,15 +142,40 @@ input[type=submit]{
     text-align: center;
     font-family:Arial;
 }
+/* .button{
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} */
 .button{
     color:blue;
     background-color: white;
     border: 2px solid #e7e7e7;
     font-weight: 600;
+    margin-left: 40rem;
     padding: 10px 10px;
     border-radius: 4px;
-    margin-left: 40rem;
+  
 
+
+
+
+/*background-color: #24A0ED;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.31rem;
+    /* margin-left: 55rem;
+    margin-top: 2rem; */
+    /* color: white;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-top:1%;
+     margin-bottom:2%;  */
+ 
 }
 
 @media screen and (max-width:600px) {
@@ -287,6 +315,7 @@ input[type=submit]{
     .heading1{ 
         font-size: 50px;
         font-family: 'Arial';
+
     }
     .heading2{
         font-family:'Arial';
@@ -318,17 +347,17 @@ input[type=submit]{
         font-weight: 600;
     }
     .pswd-data{
-        font-size:7px;
+        font-size:9px;
     }
     .signup{
-        font-size:7px;
+        font-size:9px;
         text-align: center;
     }
     .signupBtn{
         display: none;
     }
     .form-data{
-        color:#4770DA;
+        color:#1228ef;
     }
     input[type=text]{
         width: 100%;
@@ -366,7 +395,7 @@ input[type=submit]{
         font-weight: 600;
         padding: 10px 10px;
         border-radius: 4px;
-        margin-left: 40rem;
+        margin-left: 40rem; 
     
     }
 }

@@ -142,40 +142,15 @@ input[type=submit]{
     text-align: center;
     font-family:Arial;
 }
-/* .button{
-  margin: 0;
-  position: absolute;
-  top: 100%;
-  left: 5%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-} */
+.center-btn{
+    text-align: center;
+}
 .button{
     color:blue;
     background-color: white;
     border: 2px solid #e7e7e7;
-    font-weight: 600;
-    margin-left: 40rem;
     padding: 10px 10px;
     border-radius: 4px;
-  
-
-
-
-
-/*background-color: #24A0ED;
-    border: none;
-    padding: 1rem;
-    border-radius: 0.31rem;
-    /* margin-left: 55rem;
-    margin-top: 2rem; */
-    /* color: white;
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
-    margin-top:1%;
-     margin-bottom:2%;  */
- 
 }
 
 @media screen and (max-width:600px) {
@@ -207,9 +182,6 @@ input[type=submit]{
     .pop-up{
         display: none;
     }
-    .button{
-        margin-left:15rem;
-    }
 }
 @media screen and (min-width:600px) and (max-width:992px) {
     .header{
@@ -240,9 +212,7 @@ input[type=submit]{
         width: 50%;
         margin-bottom: 2rem;
     }
-    .button{
-        margin-left:25rem;
-    }
+
 }
 
 @media screen and (min-width:992px) {
@@ -388,7 +358,7 @@ input[type=submit]{
         text-align: center;
         font-family:Arial;
     }
-    .button{
+    /* .button{
         color:blue;
         background-color: white;
         border: 2px solid #e7e7e7;
@@ -397,5 +367,5 @@ input[type=submit]{
         border-radius: 4px;
         margin-left: 40rem; 
     
-    }
+    } */
 }
